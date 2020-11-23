@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #08223f;
+}
+
+.container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container input{
+    width: 100%;
+    height: 40px;
+    background: white;
+    outline: none;
+    padding: 4px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    box-shadow: -1px -1px 5px rgba(255, 255, 255, 1),
+                inset 4px 4px 10px rgba(0, 0, 0, .05),
+                inset -4px -4px 10px rgba(255, 255, 255, 1),
+                4px 4px 10px rgba(0, 0, 0, .05);
+}
+
+.container p{
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.container span{
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    right: -6%;
+    cursor: pointer;
+}

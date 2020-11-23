@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Password Suggestion</title>
+
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Password Suggestion..</h2>
+            <div style="position: relative;">
+                <input type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+                autocomplete="off">
+                <span onclick="toggle()">
+                    <i class="far fa-eye" onclick="myFunction(this)"></i>
+                </span>
+            </div>
+            <p class="random-password"></p>
+        </div>
+        
+        <script src="/main.js" type="text/javascript"></script>
+        
+    </body>
+
+</html>
